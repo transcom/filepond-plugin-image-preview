@@ -312,7 +312,7 @@ const overlayTemplateSuccess = hasNavigator && document.createElement('canvas');
 if (hasNavigator) {
   drawTemplate(overlayTemplateShadow, width, height, [40, 40, 40], 0.85);
   drawTemplate(overlayTemplateError, width, height, [196, 78, 71], 1);
-  drawTemplate(overlayTemplateSuccess, width, height, [54, 151, 99], 1);
+  drawTemplate(overlayTemplateSuccess, width, height, [0, 113, 188], 1);
 }
 
 const createImageWrapperView = fpAPI => {
